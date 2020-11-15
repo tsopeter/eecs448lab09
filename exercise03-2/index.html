@@ -1,0 +1,43 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+      <script src="formChecker.js"></script>
+  </head>
+  <body>
+    <h1 class="title"> Propane and Propane Accessories </h1>
+    <p class="title_desc"> I sell propane and propane accessories - Hank </p>
+    <form id="form" class="interface" action="backend.php" method="post" onsubmit="return validate()">
+      <p class="item_title"> Propane </br> Item Description: </p>
+      <p class="item_desc"> Cost $30 </br> Dat Propane... Perfect for grilling </p>
+      <input id="propane" type="number" class="item_input" name="nPropane"> Number of Item(s) </input>
+      </br>
+      <p class="item_title"> Accessories </br> Item Description: </p>
+      <p class="item_desc"> Cost $50 </br> Just some random accessories </p>
+      <input id="accessories" type="number" class="item_input" name="nAccessories"> Number of Item(s) </input>
+      </br>
+      <p class="item_title"> Grill </br> Item Description: </p>
+      <p class="item_desc"> Cost $10 </br> Don't know why this is the cheapest </p>
+      <input id="grill" type="number" class="item_input" name="nGrill"> Number of Item(s) </input>
+      </br>
+
+      <div class="shipping_info">
+        <p class="item_desc"> Shipping: </br> Info: </p>
+        <input type="radio" id="s7" name="tShip" value="0.00">Free Seven (7) Day Shipping </input></br>
+        <input type="radio" id="s3" name="tShip" value="5.00"> Three (3) Day Shipping </input></br>
+        <input type="radio" id="s1" name="tShip" value="50.00"> Overnight Shipping </input></br>
+      </div>
+      <div class="user_info">
+        <p class="item_desc"> User information </p>
+        Username:<input type="text" id="username" class="item_input" name="username"></input></br>
+        Password:<input type="password" id="password" class="item_input" name="password"></input>
+        <input type="button" id="seepassowrd" value="See Password"></button>
+      </div>
+      <div class="enterform">
+        <input id="sub" class="enter" type="submit" name="Submit"></input>
+      </div>
+    </form>
+    <div class="reset">
+      <button class="enter" name="reset" id="reset">Reset</input>
+    </div>
+  </body>
+</html>

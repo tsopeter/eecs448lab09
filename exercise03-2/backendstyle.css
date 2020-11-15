@@ -1,0 +1,72 @@
+body{
+  background-color: lightblue;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+h1.title{
+  text-align: center;
+  background-color: white;
+  font-size: 50px;
+  color: blue;
+  margin: 20px;
+  border: 5px solid darkblue;
+  border-radius: 15px;
+}
+
+p.title_desc{
+  text-align: center;
+  background-color: white;
+  color: blue;
+  margin: 20px;
+  border: 5px solid darkblue;
+  border-radius: 15px;
+  font-style: italic;
+}
+
+td, th{
+  font-size: 25px;
+  border: 2px solid black;
+  text-align: left;
+  padding: 12px;
+}
+
+div.item_summary{
+  background-color: white;
+  margin: 20px;
+  border: 5px solid darkblue;
+  border-radius: 15px;
+  padding: 20px;
+  justify-content: left;
+  align-items: left;
+}
+
+div.customer_information{
+  background-color: white;
+  margin: 20px;
+  border: 5px solid darkblue;
+  border-radius: 15px;
+  padding: 20px;
+  display: block;
+  font-style: normal;
+  color: darkblue;
+  width: auto;
+}
+
+p.total_summary{
+  font-size: 40px;
+}
+
+p.total{
+  font-size: 30px;
+}
+
+p.customer_summary{
+  font-style: italic;
+  font-weight: bold;
+  color: darkblue;
+}
+
+tr:nth-child(even){
+  background-color: lightgrey;
+}

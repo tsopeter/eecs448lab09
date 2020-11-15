@@ -1,0 +1,85 @@
+body{
+  background-image: url(02index.jpg);
+  font-family: monospace;
+  font-size: 20px;
+}
+
+h1{
+    background-color: white;
+    font-size: 35px;
+    font-family: monospace;
+    color: blue;
+}
+
+p{
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
+form{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+p.item_title{
+  font-size: 30px;
+}
+
+input.item_input{
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+input{
+  margin: 5px;
+  font-size: 20px;
+}
+
+button.enter{
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: azure;
+  background-color: darkred;
+}
+
+button.enter:hover{
+  background-color: red;
+}
+
+input.enter{
+  border-radius: 10px;
+  color: azure;
+  background-color: darkgreen;
+}
+
+input.enter:hover{
+  background-color: green;
+}
+
+p.title_desc{
+  color: blue;
+  font-size: 25px
+}
+
+div.enterform{
+  background-color: rgba(0, 0, 255, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.reset{
+  background-color: rgba(0, 0, 255, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#seepassowrd{
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+}
+
+#seepassowrd:hover{
+  background-color: blue;
+}
