@@ -26,5 +26,41 @@
     echo "</table>";
   }
 
-  drawTable(10);
+ //draw the html file
+ echo "<html>
+      <head>
+        <style>
+          body{
+            background-color: powderblue;
+            font-family: monospace;
+          }
+          tr:nth-child(odd){
+            background-color: white;
+          }
+          tr:nth-child(even){
+            background-color: lightgrey;
+          }
+
+          td, th{
+            font-size: 25px;
+            border: 2px solid black;
+            text-align: left;
+            padding: 12px;
+          }
+          tr:first-child{
+            background-color: darkred;
+            color: azure;
+          }
+          td:first-child{
+            background-color: darkred;
+            color: azure;
+          }
+        </style>
+      </head>
+      <body>
+ ";
+  drawTable(100);
+
+  echo "</body>
+        </html>";
  ?>
